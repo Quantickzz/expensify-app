@@ -1,0 +1,24 @@
+//Units - px, rem
+//1 rem = 16px
+html {
+  //Isto serve para transformar a base de todo a app
+  //para 10, pois 16 * 0,625 = 10, ou seja 2.2 rem = 22px
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
