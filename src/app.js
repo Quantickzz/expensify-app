@@ -12,7 +12,6 @@ import "react-dates/lib/css/_datepicker.css";
 //Implementar checkbox para que opcao
 //que calhe, seja automaticamente removida~
 const store = configureStore();
-
 const jsx = (
   <Provider store={store}>
     <AppRouter />
